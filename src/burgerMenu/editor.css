@@ -1,0 +1,132 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-categories {
+  margin: 0 0 0 0 !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+.uni_burger__icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.uni_burger__icon img {
+  object-fit: contain;
+}
+
+.uni_btn {
+  gap: 0.5rem;
+}
+
+.uni_btn_add {
+  background: #d5d5d5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.uni_btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inspectorMenuItems {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.inspectorMenuItems .inspectorMenuItem {
+  padding: 1rem;
+  border-bottom: 2px solid #f7f7f7;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inspectorAddItem {
+  background: #0d99d5;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.inspectorSidebarImage {
+  position: relative;
+}
+
+.itemWrap {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #f7f7f7;
+}
+
+.dynamicControls {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dynamicControls .uni_add_btn {
+  flex-grow: 1;
+  background: #0d99d5;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s opacity;
+}
+.dynamicControls .uni_add_btn:hover {
+  opacity: 0.75;
+}
+
+.controlsUpDown {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.controlsUpDown button {
+  border: 1px solid #ddd;
+}
+
+.popupOverlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+  opacity: 0.75;
+  z-index: 1;
+}
+
+.popupModal {
+  position: fixed;
+  z-index: 5;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 960px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popupModal .block-editor-inner-blocks .block-editor-block-list__layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.popupModal .block-editor-inner-blocks .editor-styles-wrapper .wp-block {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

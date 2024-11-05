@@ -1,0 +1,113 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/joo-promotions",
+  "version": "0.1.0",
+  "title": "Uni Promotion Joocasino",
+  "category": "unitheme",
+  "icon": "embed-photo",
+  "description": "Joocasino like блоки промоушена",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"gapBetween": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"titleFontSize": {
+	  "type": "string",
+	  "default": "18px"
+	},
+	"bodyFontSize": {
+	  "type": "string",
+	  "default": "14px"
+	},
+	"upperFontSize": {
+	  "type": "string",
+	  "default": "13px"
+	},
+	"bottomFontSize": {
+	  "type": "string",
+	  "default": "13px"
+	},
+	"promoBlocks": {
+	  "type": "array",
+	  "default": [
+		{
+		  "block_image": {
+			"url": null,
+			"id": null
+		  },
+		  "block_title": "Bonus title",
+		  "block_description": "Describe your block here",
+		  "block_caption_background": false,
+		  "block_button": "Get bonus",
+		  "block_align": null,
+		  "block_target": null,
+		  "block_url": "/goto",
+		  "block_columns": "2",
+		  "block_alt_image": "",
+		  "block_alt_position_top": "-5%",
+		  "block_alt_position_left": "19%",
+		  "block_bonus_terms": "Terms and Conditions",
+		  "block_alt_image_height": "240px",
+		  "block_label": "",
+		  "block_label_bg": "",
+		  "block_label_color": ""
+		}
+	  ]
+	},
+	"block_label_fontsize": {
+	  "type": "string",
+	  "default": "13px"
+	},
+	"block_label_padding": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"block_label_border_radius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"captionColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"blocksBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"buttonsBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"align": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"captionBackground": {
+	  "type": "string",
+	  "default": "linear-gradient(135deg,rgba(51,34,34,0.13) 0%,rgba(51,34,34,0.13) 99%)"
+	},
+	"buttonBackground": {
+	  "type": "string",
+	  "default": "green"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"blocksHeight": {
+	  "type": "string",
+	  "default": "250px"
+	}
+
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

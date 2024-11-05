@@ -1,0 +1,8 @@
+.wp-block-uni-blocks-rocket-block {
+  max-width: 100%;
+}
+.wp-block-uni-blocks-rocket-block .uni-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

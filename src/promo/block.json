@@ -1,0 +1,122 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/promo",
+  "version": "0.1.0",
+  "title": "Uni Promotion Full Image",
+  "category": "unitheme",
+  "icon": "embed-photo",
+  "description": "Promotions blocks",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"titleFontSize": {
+	  "type": "string",
+	  "default": "18px"
+	},
+	"bodyFontSize": {
+	  "type": "string",
+	  "default": "14px"
+	},
+	"upperFontSize": {
+	  "type": "string",
+	  "default": "13px"
+	},
+	"bottomFontSize": {
+	  "type": "string",
+	  "default": "13px"
+	},
+	"blockMaxWidth": {
+	  "type": "string",
+	  "default": "100%"
+	},
+	"blockMargin": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"promocodeBackground": {
+	  "type": "string"
+	},
+	"promocodeColor": {
+	  "type": "string"
+	},
+	"promocodeBradius": {
+	  "type": "string"
+	},
+	"promocodePadding": {
+	  "type": "string"
+	},
+	"promocodeFontSize": {
+	  "type": "string"
+	},
+	"promoBlocks": {
+	  "type": "array",
+	  "default": [
+		{
+		  "block_image": {
+			"url": null,
+			"id": null
+		  },
+		  "block_title": "Bonus title",
+		  "block_description": "Describe your block here",
+		  "block_caption_background": false,
+		  "block_button": "Get bonus",
+		  "block_align": null,
+		  "block_target": null,
+		  "block_url": "/goto",
+		  "block_columns": "2",
+		  "block_alt_image": "",
+		  "block_alt_position_top": "40%",
+		  "block_alt_position_left": "70%",
+		  "block_top_title": "First Deposit",
+		  "block_bonus_terms": "Terms and Conditions",
+		  "block_promocode": null
+		}
+	  ]
+	},
+	"isGrow": {
+	  "type": "boolean",
+	  "default": true
+	},
+	"captionColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"blocksBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"buttonsBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"align": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"captionBackground": {
+	  "type": "string",
+	  "default": "linear-gradient(135deg,rgba(51,34,34,0.13) 0%,rgba(51,34,34,0.13) 99%)"
+	},
+	"buttonBackground": {
+	  "type": "string",
+	  "default": "green"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"blocksHeight": {
+	  "type": "string",
+	  "default": "250px"
+	}
+
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

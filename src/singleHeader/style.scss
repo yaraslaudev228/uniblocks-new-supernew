@@ -1,0 +1,93 @@
+.wp-block-uni-blocks-header-block {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  max-width: 100%;
+  width: 100%;
+
+  .uni_logo_wrap {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+
+  }
+  .uni_logo {
+	display: flex;
+	align-items: center;
+
+	img {
+	  object-fit: contain;
+	}
+  }
+  .uni_menu_items {
+	display: flex;
+	align-items: center;
+
+	.uni_item {
+	  display: inline-flex;
+	  align-items: center;
+	  gap: 1rem;
+	  transition: .3s opacity;
+	  &:hover {
+		opacity: .85;
+	  }
+	  img {
+		object-fit: contain;
+	  }
+	}
+  }
+  .uni_buttons {
+	display: flex;
+	align-items: center;
+
+
+  }
+  .uni_btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	transition: .3s opacity;
+	&:hover {
+	  opacity: .85;
+	}
+  }
+  .uni_remove_block_button {
+	position: static;
+  }
+}
+@media (max-width: 768px) {
+  .uni_menu_items {
+	display: none !important;
+  }
+
+
+}
+@media (max-width: 768px)
+{
+
+  .wp-block-uni-blocks-header-block {
+	flex-wrap: nowrap;
+	.btn  {
+	  font-size: 12px !important;
+	  white-space: nowrap;
+	}
+  }
+  .uni_hide_on_mobile {
+	display: none !important;
+  }
+
+}
+@media (max-width: 540px) {
+  .wp-block-uni-blocks-header-block .logo
+  {
+	display: block;
+	padding: 0 .5rem;
+	img {
+	  width: 100%;
+	}
+  }
+}

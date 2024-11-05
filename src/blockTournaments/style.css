@@ -1,0 +1,110 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.title-tournaments {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.promo-block__wrap {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.promo-block {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.promo-block img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.promo-block__info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.custom-btn {
+  display: flex;
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.timer__items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.promo-block__info {
+  position: relative;
+}
+
+.promo-block__info.right {
+  align-items: end;
+}
+
+.promo-block__info.center {
+  align-items: center;
+}
+
+.promo-block__info.left {
+  align-items: start;
+}
+
+.timer__item::before {
+  content: attr(data-title);
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  bottom: -30px;
+}
+
+.timer__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.custom-btn {
+  margin-top: 20px;
+}
+
+@media (max-width: 1124px) {
+  .promo-block {
+    flex-basis: calc(33.3333333333% - 1rem) !important;
+  }
+}
+@media (max-width: 992px) {
+  .promo-block {
+    flex-basis: calc(50% - 1rem) !important;
+  }
+}
+@media (max-width: 768px) {
+  .promo-block {
+    flex-basis: 100% !important;
+  }
+}

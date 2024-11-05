@@ -1,0 +1,83 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-footer-providers-slider {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.wp-block-uni-blocks-footer-providers-slider .swiper-wrapper {
+  display: flex;
+  gap: 1rem;
+  box-sizing: content-box;
+}
+.wp-block-uni-blocks-footer-providers-slider .wr_title_uni-win {
+  display: flex;
+  align-items: center;
+}
+.wp-block-uni-blocks-footer-providers-slider .section-title-controls {
+  display: flex;
+  align-items: center;
+}
+.wp-block-uni-blocks-footer-providers-slider .wr-next-prev-btn {
+  position: relative;
+  width: 115px;
+}
+.wp-block-uni-blocks-footer-providers-slider .swiper-button-next,
+.wp-block-uni-blocks-footer-providers-slider .swiper-button-prev {
+  border-radius: 50%;
+  height: 42px;
+  min-width: unset;
+  width: 42px;
+  background: transparent;
+  border: 1px solid;
+}
+.wp-block-uni-blocks-footer-providers-slider .swiper-button-next:after {
+  font-size: 14px !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+}
+.wp-block-uni-blocks-footer-providers-slider .swiper-button-prev:after {
+  font-size: 14px !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+}
+.wp-block-uni-blocks-footer-providers-slider .uni_title_provider {
+  font-size: 2rem;
+}
+.wp-block-uni-blocks-footer-providers-slider .uni_title_provider {
+  width: 100%;
+  flex-basis: 100%;
+}
+.wp-block-uni-blocks-footer-providers-slider .inputFontSize {
+  max-width: 60px;
+}
+.wp-block-uni-blocks-footer-providers-slider .uni_provider {
+  opacity: 0.85;
+  transition: 0.3s opacity;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wp-block-uni-blocks-footer-providers-slider .uni_provider:hover {
+  opacity: 1;
+}
+.wp-block-uni-blocks-footer-providers-slider .uni_provider img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.footer_provider.swiper {
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+.wp-block-uni-blocks-block-pros-cons {
+
+ 	.uni_pros__cons {
+	  display: flex;
+	  gap: 1rem
+	}
+  	.uni_pros-cons__title {
+	  padding: 1rem;
+	}
+  	.uni_pros-cons__items {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 1rem;
+	  flex-grow: 1;
+	  padding-bottom: 1rem;
+	  flex-basis: calc(50% - 1rem);
+
+	  .uni_pros-cons__item {
+		padding: 0 1rem;
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+	  }
+	  .item {
+		margin-bottom: 0;
+
+	  }
+	}
+
+}
+

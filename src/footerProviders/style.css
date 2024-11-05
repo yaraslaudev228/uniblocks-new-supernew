@@ -1,0 +1,37 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.uni_title_provider {
+  font-size: 2rem;
+}
+
+.wp-block-uni-blocks-footer-providers {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.uni_title_provider {
+  width: 100%;
+  flex-basis: 100%;
+}
+
+.inputFontSize {
+  max-width: 60px;
+}
+
+.uni_provider img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.uni_provider {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}

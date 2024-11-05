@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.uni_header_logo_center .wp-block-columns {
+  width: 100%;
+}
+
+@media (max-width: 890px) {
+  .uni_header_logo_center .wp-block-uni-blocks-menu-block {
+    flex-wrap: nowrap !important;
+  }
+  .uni_header_logo_center .wp-block-columns {
+    flex-wrap: nowrap !important;
+  }
+  .uni_header_logo_center .wp-block-columns .wp-block-column:first-child {
+    flex-grow: unset !important;
+    flex-basis: 5% !important;
+  }
+  .uni_header_logo_center .wp-block-columns .wp-block-column:nth-child(2) {
+    flex-grow: unset !important;
+    flex-basis: 15%;
+  }
+  .uni_header_logo_center .wp-block-columns .wp-block-column:nth-child(2) .wp-block-image .aligncenter {
+    margin: 0 !important;
+  }
+}

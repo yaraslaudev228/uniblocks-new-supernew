@@ -1,0 +1,78 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/footer-providers-slider",
+  "version": "0.1.0",
+  "title": "Uni providers slider in footer",
+  "category": "unitheme",
+  "icon":  "heading",
+  "description": "Providers slider in footer",
+  "example": {},
+  "supports": {
+  "html": true,
+      "color": {
+        "color": true
+  }
+  },
+  "attributes": {
+    "providersBlocks": {
+      "type": "array",
+      "default": [
+      {
+        "block_image": ""
+      }
+      ]
+    },
+    "title": {
+      "type": "string",
+      "default": "Providers"
+    },
+
+    "providerBackground": {
+      "type": "string",
+      "default": "#8080807a"
+    },
+    "heightImageProvider":{
+      "type": "string",
+      "default": "60px"
+    },
+    "heightBlockProvider":{
+      "type": "string",
+      "default": "80px"
+    },
+    "widthBlockProvider":{
+      "type": "string",
+      "default": "200px"
+    },
+    "border_block":{
+      "type":"string",
+      "default": "8px"
+    },
+    "paddingElement": {
+      "type": "string",
+      "default": "0 0 0 0"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+	"fontSize": {
+	  "type": "string",
+	  "default": "24px"
+	},
+	"showButtons": {
+	  "type": "boolean",
+	  "default": true
+	},
+	"isGrayScale": {
+	  "type": "boolean",
+	  "default": false
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
+

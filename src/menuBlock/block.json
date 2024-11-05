@@ -1,0 +1,150 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/menu-block",
+  "version": "0.1.0",
+  "title": "Uni Menu Block",
+  "category": "unitheme",
+  "icon": "schedule",
+  "description": "Languages dropdown button",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+
+	"menuItemsAllBorder": {
+	  "type": "object",
+	  "default": {
+		"width": "1px",
+		"color": "transparent",
+		"style": "solid"
+	  }
+	},
+	"menuItemsTopBorder": {
+	  "type": "object",
+	  "default": {
+		"width": "1px",
+		"color": "transparent",
+		"style": "solid"
+	  }
+	},
+	"menuItemsBottomBorder": {
+	  "type": "object",
+	  "default": {
+		"width": "1px",
+		"color": "transparent",
+		"style": "solid"
+	  }
+	},
+
+	"menuItemsGap": {
+	  "type": "string",
+	  "gap": "1rem"
+	},
+	"itemsBorderRadius": {
+	  "type": "string",
+	  "default": "0px"
+	},
+	"menuItemsWidth": {
+	  "type": "string"
+	},
+	"menuItemsAlignment": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"menuItemsMargin": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"menuItemsColor": {
+	  "type": "string"
+	},
+	"menuItemsBlockPadding": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"menuItemsBlockBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"menuItemsBlockBackground": {
+	  "type": "string",
+	  "default": "transparent"
+	},
+	"menuItemsUrl": {
+	  "type": "string",
+	  "default": "/goto"
+	},
+	"menuItems": {
+	  "type": "array",
+	  "default": [
+		{
+		  "name": "Lobby",
+		  "url": null,
+		  "icon": null,
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false,
+		  "padding": null,
+		  "borderRadius": "",
+		  "direction": null,
+		  "iconSize": null,
+		  "width": null,
+		  "target": null,
+		  "boxShadow": null,
+		  "border": {
+			"width": "1px",
+			"color": "transparent",
+			"style": "solid"
+		  }
+		}
+	  ]
+	},
+	"mobileNowrap": {
+	  "type": "boolean",
+	  "default": false
+	},
+	"menuItemsIconSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"flexGrowAll": {
+	  "type": "boolean",
+	  "default": true
+	},
+	"menuItemsBackground": {
+	  "type": "string",
+	  "default": "transparent"
+	},
+	"menuItemsPadding": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"menuDirection": {
+	  "type": "string",
+	  "default": "horizontal"
+	},
+	"itemsInnerDirection": {
+	  "type": "string",
+	  "default": "row"
+	},
+	"itemsWidth": {
+	  "type": "string",
+	  "default": "120px"
+	},
+	"itemsFontSize": {
+	  "type": "string",
+	  "default": "14px"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

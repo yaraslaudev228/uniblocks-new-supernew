@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/winners",
+  "version": "0.1.0",
+  "title": "Uni winners",
+  "category": "unitheme",
+  "icon": "heading",
+  "description": "Winners for casino",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true,
+	  "gradients": true
+	},
+	"align": true
+  },
+  "attributes": {
+	"winners": {
+	  "type": "array",
+	  "default": [
+		{
+		  "image": {
+			"url": null,
+			"id" : null
+		  },
+		  "name": "Alex",
+		  "sum": "100000",
+		  "title": "Sweeet bananza"
+		}
+	  ]
+	},
+	"color_game_winners": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"color_sum_winners": {
+	  "type": "string",
+	  "default": "grey"
+	},
+	"color_title_winners": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"fs_game_winners": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"fs_sum_winners": {
+	  "type": "string",
+	  "default": "14px"
+	},
+	"fs_title_winners": {
+	  "type": "string",
+	  "default": "18px"
+	},
+	"border_block": {
+	  "type": "string",
+	  "default": "4px"
+	},
+	"blocksBackground": {
+	  "type": "string",
+	  "default": "#80808036"
+	},
+	"biggestWins": {
+	  "type": "string",
+	  "default": "Biggest Wins"
+	},
+	"latestWins": {
+	  "type": "string",
+	  "default": "Latest Wins"
+	},
+	"itemsPadding": {
+	  "type": "string",
+	  "default": ".5rem"
+	},
+	"elementsDirection": {
+	  "type": "string",
+	  "default": "column"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,15 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-container-block {
+  max-width: 100%;
+}
+
+.uni_container_section {
+  max-width: 100%;
+}
+.uni_container_section .wp-block-columns {
+  max-width: 100%;
+}

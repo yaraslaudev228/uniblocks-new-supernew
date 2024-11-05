@@ -1,0 +1,89 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/block-collections",
+  "version": "0.1.0",
+  "title": "Uni collections",
+  "category": "unitheme",
+  "icon": "heading",
+  "description": "Collections prizes",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true,
+	  "gradients": true
+	},
+	"align": true
+  },
+  "attributes": {
+    "title_collections":{
+      "default":"Collections",
+      "type":"string"
+    },
+    "alignSwiper":{
+      "default":"left",
+      "type":"string"
+    },
+    "collections":{
+      "type":"array",
+      "default":[
+        {
+          "name_collection":"Classic",
+   
+          "image_collection": {
+            "url": null,
+            "id": null
+            }
+        }
+      ]
+    },
+    "border_block":{
+      "type":"string",
+      "default": "8px"
+    },
+    "count":{
+      "default":"200px",
+      "type":"string"
+    },
+    "blocksBackground":{
+      "default":"#8080803b",
+      "type":"string"
+    },
+    "color_title_collection":{
+      "default":"black",
+      "type":"string"
+    },
+    "fs_title_collection":{
+      "default":"1rem",
+      "type":"string"
+    },
+    "color_name_collection":{
+      "default":"black",
+      "type":"string"
+    },
+    "fs_name_collection":{
+      "default":"1rem",
+      "type":"string"
+    },
+    "height_image":{
+      "default":"40px",
+    "type":"string"
+    },
+   
+    "direction_img":{
+      "default": false,
+      "type":"boolean"
+    },
+	"elements_gap": {
+	  "default": "1rem",
+	  "type": "string"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
+

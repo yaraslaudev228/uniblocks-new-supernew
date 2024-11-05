@@ -1,0 +1,101 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.block-editor-block-list__layout .wp-block-uni-blocks-block-tournamnts {
+	margin: 2rem 0 !important;
+	width: 100% !important;
+	max-width: 100%;
+	position: relative;
+
+
+	.uniTournmentDelete {
+		border: solid 1px black;
+		border-radius: 4px;
+		height: 25px;
+		width: 25px;
+		color: black;
+		background-color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 14px;
+		z-index: 5;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+
+	.uniTournamentAdd {
+		padding: 10px;
+		background-color: white;
+		color: black;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.title-promotions {
+		padding: 10px;
+		border: solid 1px black;
+	}
+
+	.uni_tournaments__wrap {
+		width: 100%;
+		gap: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+	}
+
+	.uniTournamentAdd {
+		width: 100%;
+		grid-column: 1 / -1;
+	}
+
+	.uni_tournament {
+		padding: 5px;
+
+	}
+
+	.uni_tournament {
+ 	 	position: relative;
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.components-popover__fallback-container {
+		height: 20px;
+	}
+	.input-size {
+		max-width: 30px;
+	}
+	.components-button.components-toolbar__control svg {
+		margin-left: 10px;
+	}
+	.inputFontSize {
+		max-width: 60px;
+	}
+	.wr-block {
+		border-bottom: solid black 1px;
+	}
+	.toolbargroupPopover {
+		width: 360px;
+		.components-popover__content {
+			width: 100%;
+			padding: 10px;
+		}
+		.components-toolbar {
+			width: 100%;
+		}
+	}
+	.promo-block {
+		max-width: calc(22% - 10px);
+	}
+	.promo-block img {
+		z-index: -1;
+	}
+}

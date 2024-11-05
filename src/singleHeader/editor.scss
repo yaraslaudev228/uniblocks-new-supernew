@@ -1,0 +1,51 @@
+.wp-block-uni-blocks-header-block {
+  display: flex;
+  border: 1px solid #f7f7f7;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 100%;
+  transition: .3s border-color;
+  &:hover {
+	border: 1px solid #00a0d2;
+  }
+  .logo_wrap {
+	display: flex;
+	align-items: center;
+	gap: 1rem
+  }
+  .logo {
+	img {
+	  object-fit: contain;
+	}
+  }
+  .menu_items {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	.item {
+	  display: inline-flex;
+	  align-items: center;
+	  gap: 1rem
+	}
+  }
+  .buttons {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+  }
+  .btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+
+
+  }
+  .uni_remove_block_button {
+	position: static;
+  }
+}

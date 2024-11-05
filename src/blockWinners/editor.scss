@@ -1,0 +1,67 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.uni_section__title {
+	font-size: 24px;
+	line-height: 1.5;
+
+	font-weight: 900;
+}
+.uni_winner {
+	width: 100%;
+}
+.font-size {
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+.block-editor-block-list__block.wp-block-uni-blocks-winners {
+	margin: 0 auto;
+	border: solid 1px black;
+
+	padding: 20px;
+	width: 100%;
+
+	.section-title div {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.swiper-wrapper {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		width: 100%;
+		gap: 20px;
+	}
+
+	.uniWinnerDelete {
+		background: #ff0000;
+		padding: 10px;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 12px;
+		max-width: 100px;
+	}
+
+	.swiper-slide {
+		align-items: center;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	.uniWinnerAdd {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 15px;
+		max-width: 120px;
+		border: solid grey;
+		border-radius: 4px;
+	}
+}

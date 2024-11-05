@@ -1,0 +1,111 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/bet-slip",
+  "version": "0.1.0",
+  "title": "Uni Bet Slip",
+  "category": "unitheme",
+  "icon":  "editor-table",
+  "description": "Bet Slip Block in sidebar",
+  "example": {},
+  "supports": {
+  	"html": true,
+	"color": {
+	  "color": true
+	},
+	"typography": {
+	  "fontSize": true
+	}
+  },
+  "attributes": {
+	"borders": {
+	  "type": "object",
+	  "default": {
+		"width": "1px",
+		"style": "solid",
+		"color": "#f7f7f7"
+	  }
+	},
+	"buttonBorderRadius": {
+	  "type": "string"
+	},
+	"betSlipTab": {
+	  "type": "string",
+	  "default": "BetSlip"
+	},
+	"myBetsTab": {
+	  "type": "string",
+	  "default": "My Bets"
+	},
+	"bodyText": {
+	  "type": "string",
+	  "default": "Your Betslip is empty <span>Go Find Some Bets</span>"
+	},
+	"passiveTabBackground": {
+	  "type": "string",
+	  "default": "#f7f7f7"
+	},
+	"passiveTabColor": {
+	  "type": "string",
+	  "default": "#686868"
+	},
+	"activeTabBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"activeTabColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"bodyBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"bodyFontColor": {
+	  "type": "string",
+	  "default": "#686868"
+	},
+	"footerBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"footerColor": {
+	  "type": "string",
+	  "default": "#686868"
+	},
+	"buttonBackground": {
+	  "type": "string",
+	  "default": "#f7f7f7"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"stake": {
+	  "type": "string",
+	  "default": "Stake"
+	},
+	"odds": {
+	  "type": "string",
+	  "default": "Odds"
+	},
+	"possibleWinings": {
+	  "type": "string",
+	  "default": "Possible Winnings"
+	},
+	"buttonText": {
+	  "type": "string",
+	  "default": "Login"
+	},
+	"currency": {
+	  "type": "string",
+	  "default": "MWK"
+	}
+
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

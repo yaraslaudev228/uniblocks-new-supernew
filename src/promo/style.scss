@@ -1,0 +1,67 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-promo {
+  .overlayButton {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 100;
+  }
+}
+.uni_promotion_align_right {
+  text-align: right;
+  align-items: flex-end;
+
+}
+.uni_promotion_top_text
+{
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  z-index: 18;
+
+}
+.uni_promotion_terms {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  z-index: 18;
+}
+.uni_promotion_align_center {
+  text-align: center;
+  align-items: center;
+  .uni_promotion_top_text,.uni_promotion_terms   {
+ 	left: 50%;
+	transform: translateX(-50%);
+  }
+
+}
+.uni_promotion_align_left {
+  text-align: left;
+  align-items: flex-start;
+  .uni_promotion__caption {
+	align-items: flex-start;
+  }
+}
+.uni_promotion_align_right {
+  .uni_promotion_top_text,.uni_promotion_terms  {
+	left: 0;
+ 	text-align: right;
+	padding: 0 2rem;
+	width: 100%;
+  }
+}
+.uni_promotions_list {
+  grid-auto-flow: row dense;
+}
+.uni_promotions_list {
+  display: flex;
+  flex-wrap: wrap;
+}

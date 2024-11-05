@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/reviews-block",
+  "version": "0.1.0",
+  "title": "Reviews",
+  "category": "unitheme",
+  "icon":  "heading",
+  "description": "Отзывы на ваш чумачечий сателлит",
+  "example": {},
+  "supports": {
+  	"html": true,
+	"color": {
+	  "color": true
+	},
+	"typography": {
+	  "fontSize": true
+	}
+  },
+  "attributes": {
+ 	"commentsList": {
+	  "type": "array",
+	  "default": []
+	},
+	"commentsTitle": {
+	  "type": "string",
+	  "default": "Latest Reviews"
+	},
+	"commentsColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"commentsBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"commentsPadding": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"commentsBradius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"commentsTitleFsize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"commentsBodyFsize": {
+	  "type": "string",
+	  "default": "14px"
+	},
+	"commentsGap": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"commentsStarsColor": {
+	  "type": "string",
+	  "default": "orange"
+	},
+	"isDateRevealed": {
+	  "type": "boolean",
+	  "default": false
+	}
+
+
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

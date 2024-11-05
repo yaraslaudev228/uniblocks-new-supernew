@@ -1,0 +1,25 @@
+.uni_icons__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.uni_icons__list .uni_upload_mage {
+  padding: 1rem !important;
+  display: inline-flex;
+  gap: 1rem;
+  background: #0d99d5;
+  color: #fff;
+}
+.uni_icons__list .uni_icon {
+  position: relative;
+}
+.uni_icons__list .uni_icon img {
+  object-fit: contain;
+}
+
+@media (max-width: 890px) {
+  .wp-block-uni-blocks-multi-icons {
+    gap: 1rem !important;
+    justify-content: center !important;
+  }
+}

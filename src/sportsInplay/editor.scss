@@ -1,0 +1,248 @@
+.uni_sports_table {
+  max-width: 100%;
+}
+
+.match-row {
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+
+  a {
+	text-decoration: none;
+  }
+}
+
+.match-row__header {
+
+  height: 36px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.12);
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cup,
+.secondary-outcome,
+.outcome {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.33;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondary-outcome,
+.outcome {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.33;
+
+  margin-right: auto;
+}
+
+
+.cup .icon {
+  width: 12px;
+  height: 12px;
+}
+
+.row-outcomes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.market.outcomes__market {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 213px;
+  justify-content: space-between;
+}
+
+.market.outcomes__market div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avialable-markets {
+  min-width: 60px;
+}
+
+.row-first {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.icon-market {
+  width: 100%;
+  max-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-market svg {
+  height: 16px;
+  width: 16px;
+  margin-right: 0;
+}
+
+.match-row .match-body {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.match-body {
+  display: flex;
+
+}
+
+.match-body .competitors {
+  width: 100%;
+  border-right: 1px solid rgba(255, 255, 252, 0.12);
+}
+
+.match-body .competitors__home,
+.match-body .competitors__away {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.competitors .wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.competitors .wrap:hover .name.comp__name {
+}
+
+.score {
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
+}
+
+.score span {
+  margin-left: 0.75rem;
+}
+
+.home.competitors__home .score {
+  margin-bottom: 0.5rem;
+}
+
+.total-score {
+  font-weight: bolder;
+}
+
+.wrap img {
+  width: 18px;
+  height: 18px;
+  margin-right: 0.75rem;
+}
+
+.comp__name {
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  line-height: 1.33;
+  font-weight: 700;
+}
+
+.match-body .outcome {
+
+
+  font-weight: bolder;
+  height: 2.75rem !important;
+  margin: auto;
+  width: 70px;
+}
+
+.match-body .outcome a {
+
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.avialable-markets {
+  font-size: 0.875rem !important;
+  font-weight: 700;
+}
+
+.match-body .outcome:first-child {
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  margin-right: 1px;
+}
+
+.match-body .outcome:last-child {
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  margin-left: 1px;
+}
+
+.time {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.33;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  text-align: center;
+  width: 72px;
+}
+
+.competitors {
+  display: flex;
+  flex-direction: column;
+}
+
+.cup:hover {
+
+}
+
+.avialable-markets {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-body .outcomes__market:last-of-type:before {
+  background-color: hsla(0, 0%, 100%, 0.12);
+  display: block;
+  height: 38px;
+  content: "";
+  margin: auto 6px;
+  width: 1px;
+}
+
+.match-btn {
+
+  text-align: center;
+  font-size: 0.75rem;
+  display: flex;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  border-radius: 0 0 0.25rem 0.25rem;
+}

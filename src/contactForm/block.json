@@ -1,0 +1,105 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/contact-form",
+  "version": "0.1.0",
+  "title": "N1 Contact Form",
+  "category": "unitheme",
+  "icon": "editor-table",
+  "description": "Contact form for emails",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true,
+	  "background": true,
+	  "gradients": true
+	}
+  },
+  "attributes": {
+	"formBradius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"formPadding": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"formBackground": {
+	  "type": "string",
+	  "default": "#efefef"
+	},
+	"inputs": {
+	  "type": "array",
+	  "default": [
+		{
+		  "label": "Email",
+		  "name": "email",
+		  "type": "email",
+		  "className": "uni_input",
+		  "placeholder": "Enter your email"
+		},
+		{
+		  "label": "Your Message",
+		  "name": "message",
+		  "type": "textarea",
+		  "className": "uni_input",
+		  "placeholder": "Enter your Message"
+		}
+	  ]
+	},
+	"textareaHeight": {
+	  "type": "string",
+	  "default": "120px"
+	},
+	"alignment": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"buttonBackground": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"buttonBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"inputBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"inputBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"inputColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"inputPadding": {
+	  "type": "string",
+	  "default": ".5rem"
+	},
+	"placeholderColor": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"buttonText": {
+	  "type": "string",
+	  "default": "Submit"
+	},
+	"labelColor": {
+	  "type": "string",
+	  "default": "#ddd"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

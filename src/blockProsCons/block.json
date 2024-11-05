@@ -1,0 +1,111 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/block-pros-cons",
+  "version": "0.1.0",
+  "title": "Uni Pros & Cons",
+  "category": "unitheme",
+  "icon": "heading",
+  "description": "Block Pros & Cons",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true,
+	  "background": false
+	}
+  },
+  "attributes": {
+	"prosConsDirection": {
+	  "type": "string",
+	  "default": "row"
+	},
+
+	"pros": {
+	  "type": "array",
+	  "default": [
+		{
+		  "item_pros": "write the element text"
+		}
+	  ]
+	},
+	"cons": {
+	  "type": "array",
+	  "default": [
+		{
+		  "item_cons": "write cons"
+		}
+	  ]
+	},
+	"prosIcon": {
+	  "type": "object",
+	  "default": {}
+	},
+	"consIcon": {
+	  "type": "object",
+	  "default": {}
+	},
+	"title_fs": {
+	  "type": "string",
+	  "default": "1.4rem"
+	},
+	"text_fs": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"title_pros": {
+	  "type": "string",
+	  "default": "Pros"
+	},
+	"title_const": {
+	  "type": "string",
+	  "default": "Cons"
+	},
+	"color_title_cons": {
+	  "type": "string",
+	  "default": "red"
+	},
+	"color_title_pros": {
+	  "type": "string",
+	  "default": "green"
+	},
+	"color_text_cons": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"color_text_pros": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"color_bg_pros": {
+	  "type": "string",
+	  "default": "white"
+	},
+	"color_bg_cons": {
+	  "type": "string",
+	  "default": "rgba(0, 0, 0, 0.171)"
+	},
+	"border_block": {
+	  "type": "string",
+	  "default": "8px"
+	},
+	"count_block": {
+	  "type": "string",
+	  "default": "2"
+	},
+	"prosTitleBackground": {
+	  "type": "string",
+	  "default": "#a2e53e"
+	},
+	"consTitleBackground": {
+	  "type": "string",
+	  "default": "#EA7474"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
+

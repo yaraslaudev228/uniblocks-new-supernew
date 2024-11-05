@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/footer-two-rows-collection",
+  "version": "0.1.0",
+  "title": "Footer Row with 2 rows",
+  "category": "unicollections",
+  "icon":  "schedule",
+  "description": "Footer Row collection",
+  "example": {},
+  "supports": {
+  	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+ 	"blockPadding": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"blockBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"background": {
+	  "type": "string",
+	  "default": "transparent"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

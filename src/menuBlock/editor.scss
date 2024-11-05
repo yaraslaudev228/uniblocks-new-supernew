@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-categories {
+  margin: 0 0 0 0 !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+.uni_menu_items {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .uni_menu_item {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	position: relative;
+	.uni_remove_block_button {
+	  position: static;
+	}
+  }
+}
+
+.uni_color_picker {
+
+  position: relative;
+
+}
+.closeColorPicker {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #0c6ca0;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+}

@@ -1,0 +1,40 @@
+.block-editor-block-list__block.wp-block-uni-blocks-block-pros-cons {
+
+  padding: 10px;
+  box-sizing: border-box;
+
+  .uni_pros__cons {
+	display: flex;
+	gap: 1rem;
+  }
+  .pros-cons__title {
+	padding: 1rem;
+  }
+  .pros-cons__items {
+
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex-grow: 1;
+  }
+
+  .pros-cons__item {
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	padding: 0 1rem;
+  }
+
+  .addElement {
+	cursor: pointer;
+	padding: 10px;
+	background-color: #0d99d5;
+	color: #fff;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/footer-column-collection",
+  "version": "0.1.0",
+  "title": "Footer column collection",
+  "category": "unicollections",
+  "icon":  "schedule",
+  "description": "One element on row Logo, Menu, Providers, Partners, Icons, Copyright",
+  "example": {},
+  "supports": {
+  	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,173 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/sports-menu",
+  "version": "0.1.0",
+  "title": "Uni Sports Menu",
+  "category": "unitheme",
+  "icon": "editor-table",
+  "description": "Sports menu with icons",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+	"sportsItemsColor": {
+	  "type": "string",
+	  "default": "#686868"
+	},
+	"sportsItemsCounterColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"sportsItemsFontSize": {
+	  "type": "string",
+	  "default": "14px"
+	},
+	"sportsItemsCounterFontSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"sportsUrl": {
+	  "type": "string",
+	  "default": "/goto"
+	},
+	"sportsMenuItems": {
+	  "type": "array",
+	  "default": [
+		{
+		  "name": "Odds Boosts",
+		  "icon": "#odds-boosts",
+		  "counter": 180
+		},
+		{
+		  "name": "Football",
+		  "icon": "#soccer",
+		  "counter": 1271
+		},
+		{
+		  "name": "Basketball",
+		  "icon": "#Basketball",
+		  "counter": 191
+		},
+		{
+		  "name": "Tennis",
+		  "icon": "#Tennis",
+		  "counter": 342
+		},
+		{
+		  "name": "Table Tennis",
+		  "icon": "#TableTennis",
+		  "counter": 166
+		},
+		{
+		  "name": "Ice Hockey",
+		  "icon": "#icehockey",
+		  "counter": 175
+		},
+		{
+		  "name": "American Football",
+		  "icon": "#AmericanFootball",
+		  "counter": 47
+		},
+		{
+		  "name": "Aussie rules",
+		  "icon": "#AmericanFootball",
+		  "counter": 29
+		},
+		{
+		  "name": "Badminton",
+		  "icon": "#badminton_noclip",
+		  "counter": 66
+		},
+		{
+		  "name": "Baseball",
+		  "icon": "#Baseball",
+		  "counter": 511
+		},
+		{
+		  "name": "Boxing",
+		  "icon": "#Boxing",
+		  "counter": 63
+		},
+		{
+		  "name": "Cricket",
+		  "icon": "#cricket",
+		  "counter": 12
+		},
+		{
+		  "name": "Darts",
+		  "icon": "#darts",
+		  "counter": 47
+		},
+		{
+		  "name": "eSoccer",
+		  "icon": "#eSoccer",
+		  "counter": 72
+		},
+		{
+		  "name": "Futsal",
+		  "icon": "#soccer",
+		  "counter": 1
+		},
+		{
+		  "name": "Handball",
+		  "icon": "#Handball",
+		  "counter": 30
+		},
+		{
+		  "name": "MMA",
+		  "icon": "#MMA",
+		  "counter": 55
+		},
+		{
+		  "name": "Rugby",
+		  "icon": "#AmericanFootball",
+		  "counter": 77
+		},
+		{
+		  "name": "Snooker",
+		  "icon": "#Snooker",
+		  "counter": 6
+		},
+		{
+		  "name": "Volleyball",
+		  "icon": "#volleyball",
+		  "counter": 64
+		},
+		{
+		  "name": "Waterpolo",
+		  "icon": "#Waterpolo",
+		  "counter": 6
+		}
+	  ]
+	},
+	"sportsItemsBorder": {
+	  "type": "object",
+	  "default": {
+		"width": "1px",
+		"style": "solid",
+		"color": "#efefef"
+	  }
+	},
+	"buttonsBackground": {
+	  "type": "string"
+	},
+	"sportsItemsPaddingY": {
+	  "type": "string",
+	  "default": ".25rem"
+	},
+	"sportsItemsPaddingX": {
+	  "type": "string",
+	  "default": "0"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/sports-slider-rendered",
+  "version": "0.1.0",
+  "title": "Sports Slider (rendered)",
+  "category": "unitheme",
+  "icon": "heading",
+  "description": "Sports swiper is here",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+	"sportsData": {
+	  "type": "array",
+	  "default": []
+	},
+	"itemBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"itemOutcomeBackground": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"homeCompetitorBackground": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"awayCompetitorBackground": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"outcomeColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"fontColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"itemHeaderBackground": {
+	  "type": "string",
+	  "default": "#efefef"
+	},
+	"itemHeaderColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"itemBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"outcomesBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"slidesCount": {
+	  "type": "string",
+	  "default": "3"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

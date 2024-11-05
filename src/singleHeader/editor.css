@@ -1,0 +1,46 @@
+.wp-block-uni-blocks-header-block {
+  display: flex;
+  border: 1px solid #f7f7f7;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 100%;
+  transition: 0.3s border-color;
+}
+.wp-block-uni-blocks-header-block:hover {
+  border: 1px solid #00a0d2;
+}
+.wp-block-uni-blocks-header-block .logo_wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.wp-block-uni-blocks-header-block .logo img {
+  object-fit: contain;
+}
+.wp-block-uni-blocks-header-block .menu_items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.wp-block-uni-blocks-header-block .menu_items .item {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+.wp-block-uni-blocks-header-block .buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.wp-block-uni-blocks-header-block .btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.wp-block-uni-blocks-header-block .uni_remove_block_button {
+  position: static;
+}

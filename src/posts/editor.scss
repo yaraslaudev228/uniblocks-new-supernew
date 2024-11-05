@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-create-block-uni-posts {
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+.uni_slots {
+  gap: 1rem;
+  a {
+    text-decoration: none;
+  }
+}
+.media__queries {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  .media_query {
+    position: relative;
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 8px;
+  }
+}

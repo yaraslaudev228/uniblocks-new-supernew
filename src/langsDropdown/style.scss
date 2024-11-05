@@ -1,0 +1,48 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.uni_langs_list {
+  position: relative;
+  .uni_lang {
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	position: relative;
+	padding: .5rem;
+ 	img {
+	  width: 20px;
+	  height: 20px;
+	  object-fit: cover;
+	}
+  }
+  .uni_current_lang {
+
+  }
+  .uni_langs__dropdown {
+	max-height: 0;
+	overflow-y: hidden;
+	position: absolute;
+
+	opacity: 0;
+	z-index: 50;
+ 	transition: .3s max-height, .3s opacity;
+	a {
+	  display: flex;
+	  align-items: center;
+	  cursor: pointer;
+	  transition: .3s opacity;
+	  &:hover {
+		opacity: .75;
+	  }
+	}
+  }
+  .uni_langs__dropdown_active {
+	max-height: 960px;
+	opacity: 1;
+	transition: .3s max-height, .3s opacity;
+
+  }
+}

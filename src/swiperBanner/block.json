@@ -1,0 +1,139 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/swiper-banner",
+  "version": "0.1.0",
+  "title": "Баннер-слайдер на весь экран",
+  "category": "unitheme",
+  "icon": "format-image",
+  "description": "Баннер на весь экран",
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+
+	"bannerBorder": {
+	  "type": "object"
+	},
+	"target": {
+	  "type": "string",
+	  "default": null
+	},
+	"blockHeight": {
+	  "type": "string",
+	  "default": "400px"
+	},
+	"blockHeightMobile": {
+	  "type": "string",
+	  "default": "240px"
+	},
+	"banners": {
+	  "type": "array",
+	  "default": [
+		{
+		  "image": {
+			"id": null,
+			"url": null
+		  },
+		  "mobileImage": {
+			"id": null,
+			"url": null
+		  },
+		  "title": "Explore the Pragmatic Play Slots",
+		  "description": "Write something here and this is so great",
+		  "content_after_button": "",
+		  "button": "Check Out",
+		  "button_url": "/goto"
+		},
+		{
+		  "image": {
+			"id": null,
+			"url": null
+		  },
+		  "mobileImage": {
+			"id": null,
+			"url": null
+		  },
+		  "title": "Explore the Pragmatic Play Slots",
+		  "description": "Write something here and this is so great",
+		  "content_after_button": "",
+		  "button": "Check Out",
+		  "button_url": "/goto"
+		}
+	  ]
+	},
+	"titleColor": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"descriptionColor": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"contentAfterColor": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"buttonBackground": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"buttonPaddingY": {
+	  "type": "string",
+	  "default": ".25rem"
+	},
+	"buttonPaddingX": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"buttonBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"captionGap": {
+	  "type": "string",
+	  "default": ".5rem"
+	},
+	"captionPaddingY": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"captionPaddingX": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"captionMaxWidth": {
+	  "type": "string",
+	  "default": null
+	},
+	"captionAlign": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"titleFontSize": {
+	  "type": "string",
+	  "default": "22px"
+	},
+	"descriptionFontSize": {
+	  "type": "string",
+	  "default": "18px"
+	},
+	"contentMoreFontSize": {
+	  "type": "string",
+	  "default": "14px"
+	},
+	"bannerBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

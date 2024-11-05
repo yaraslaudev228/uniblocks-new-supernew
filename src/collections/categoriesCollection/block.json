@@ -1,0 +1,106 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/categories-collection",
+  "version": "0.1.0",
+  "title": "Categories Collection",
+  "category": "unicollections",
+  "icon":  "schedule",
+  "description": "Collection of categories with button that calls providers",
+  "example": {},
+  "supports": {
+  	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+	"searchButton": {
+	  "type": "array",
+	  "default": [
+		{
+		  "name": "",
+		  "url": "/goto",
+		  "icon": "",
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false
+		}
+	  ]
+	},
+ 	"categories": {
+	  "type": "array",
+	  "default": [
+		{
+		  "name": "Slots",
+		  "url": "/goto",
+		  "icon": "",
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false
+		},
+		{
+		  "name": "Favorites",
+		  "url": "/goto",
+		  "icon": "",
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false
+		},
+		{
+		  "name": "Jackpots",
+		  "url": "/goto",
+		  "icon": "",
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false
+		},
+		{
+		  "name": "Live Casino",
+		  "url": "/goto",
+		  "icon": "",
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false
+		},
+		{
+		  "name": "Table Games",
+		  "url": "/goto",
+		  "icon": "",
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false
+		},
+		{
+		  "name": "Drop & Wins",
+		  "url": "/goto",
+		  "icon": "",
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false
+		},
+		{
+		  "name": "Game Features",
+		  "url": "/goto",
+		  "icon": "",
+		  "color": "",
+		  "background": "",
+		  "align": "left",
+		  "flexGrow": false
+		}
+	  ]
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

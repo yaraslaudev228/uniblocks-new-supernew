@@ -1,0 +1,80 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/sports-table",
+  "version": "0.1.0",
+  "title": "Sports Inplay/Upcoming",
+  "category": "unitheme",
+  "icon":  "heading",
+  "description": "Sports table is here",
+  "example": {},
+  "supports": {
+  	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+ 	 "sportsData": {
+	   "type": "array",
+	   "default": []
+	 },
+	"matchRowBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"matchRowHeaderBackground": {
+	  "type": "string",
+	  "default": "#efefef"
+	},
+	"matchOutcomeBackground": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"matchShowTopMarketsBackground": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"matchCompetitorsColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"matchOutcomesColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"matchMarketsColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"matchShowTopMarketsColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"matchTournamentNameColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"under": {
+	  "type": "string",
+	  "default": "Under"
+	},
+	"total": {
+	  "type": "string",
+	  "default": "Total"
+	},
+	"over": {
+	  "type": "string",
+	  "default": "Over"
+	},
+	"showTopMarkets": {
+	  "type": "string",
+	  "default": "Show Top Markets"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

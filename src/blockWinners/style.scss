@@ -1,0 +1,130 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.uni_text {
+	width: 100%;
+}
+
+.uni_text-left {
+	text-align: left;
+}
+
+.uni_text-center {
+	text-align: center;
+}
+
+.uni_text-right {
+	text-align: right;
+}
+.wp-block-uni-blocks-winners {
+	display: flex;
+	align-items: center;
+
+}
+.uni_winner .swiper-slide {
+	height: 96px;
+	width: 310px;
+	display: flex;
+	position: relative;
+
+	overflow: hidden;
+}
+.uni_winner_wr_description {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.uni_winner img {
+	height: auto;
+	width: 95px;
+	object-fit: cover;
+	object-position: center;
+
+	margin-right: 16px;
+}
+.sum_winners {
+	line-height: 30px;
+	font-weight: 700;
+}
+.title_winners {
+	line-height: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 700;
+}
+.game_title_wiiner {
+	line-height: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.latestWins {
+	opacity: 0.65;
+	margin-left: 24px;
+
+	line-height: 32px;
+	font-weight: 700;
+
+	text-transform: uppercase;
+}
+.biggestWins {
+	line-height: 32px;
+	font-weight: 700;
+
+	text-transform: uppercase;
+}
+.wr_title_uni-win {
+	display: flex;
+	align-items: center;
+}
+.section-title {
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+	line-height: 32px;
+	font-weight: 700;
+
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.section-title-controls {
+	display: flex;
+	align-items: center;
+}
+.wr-next-prev-btn {
+	position: relative;
+	width: 115px;
+}
+.uni_winner .swiper-button-next,
+.uni_winner .swiper-button-prev {
+	border-radius: 50%;
+	height: 42px;
+	min-width: unset;
+	width: 42px;
+	background: transparent;
+	border: 1px solid;
+}
+.uni_winner .swiper-button-next:after {
+	font-size: 14px !important;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: none;
+}
+.uni_winner .swiper-button-prev:after {
+	font-size: 14px !important;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: none;
+}

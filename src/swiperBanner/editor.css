@@ -1,0 +1,66 @@
+.wp-block-uni-blocks-swiper-banner {
+  max-width: 100%;
+}
+.wp-block-uni-blocks-swiper-banner .uni_upload_mage {
+  padding: 0.5rem;
+  background: #00a0d2;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s opacity;
+}
+.wp-block-uni-blocks-swiper-banner .uni_upload_mage:hover {
+  opacity: 0.75;
+}
+.wp-block-uni-blocks-swiper-banner .banner-add {
+  background: #6ece89;
+  color: #222222;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.uni_bannerSwiper {
+  width: 100%;
+}
+.uni_bannerSwiper .uni_banner_element {
+  margin-bottom: 1rem;
+  position: relative;
+}
+.uni_bannerSwiper .uni_banner_element .bannerImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.uni_bannerSwiper .uni_banner_element .caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.uni_bannerSwiper .uni_banner_element .btn {
+  display: inline-flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  min-width: 150px;
+}
+
+.uni_banner_thumbs {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+}
+.uni_banner_thumbs .thumb {
+  height: 140px;
+  position: relative;
+  z-index: 10;
+}
+.uni_banner_thumbs .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.uni_banner_thumbs .thumb-selected {
+  border: 2px solid #00a0d2;
+}

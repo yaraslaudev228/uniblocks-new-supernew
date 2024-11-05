@@ -1,0 +1,151 @@
+.wp-block-uni-blocks-block-popup {
+	width: fit-content;
+	display: flex;
+	align-items: baseline;
+	justify-content: flex-start;
+
+	.button-provider {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 20px;
+		gap: 0.5rem;
+	}
+
+	.providers-drop {
+		display: none;
+	}
+
+	.providers-drop.active {
+		align-items: flex-start;
+		bottom: 0;
+		display: flex;
+		justify-content: center;
+		left: 0;
+		overflow: auto;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 1050;
+		background: transparent;
+	}
+
+	.dropped-providers {
+		height: 100%;
+		overflow-y: auto;
+		max-height: 600px;
+		max-width: 800px;
+		padding: 24px 32px !important;
+		-moz-column-gap: 8px;
+		column-gap: 8px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		row-gap: 8px;
+	}
+
+	.modal__backdrop {
+		background-color: rgba(0, 0, 0, 0.454);
+		bottom: 0;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		transition-property: opacity;
+		z-index: -1;
+		opacity: 0.7;
+		transition-timing-function: ease-in;
+	}
+
+	.modal__content-wrapper {
+		height: unset;
+		margin: auto;
+		max-width: 720px;
+		width: calc(100% - 20px);
+		border-radius: 20px;
+		margin: 32px auto;
+		transition-duration: 300ms;
+		opacity: 1;
+		transform: translateY(0);
+		transition-timing-function: ease-in;
+	}
+
+	.search-modal-tabs {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 24px 32px !important;
+	}
+
+	.search-modal-tabs__wrapper {
+		display: flex;
+		padding: 4px;
+	}
+
+	.modal__close-button {
+		border: none;
+		align-items: center;
+		border-radius: 50%;
+		display: flex;
+		height: 40px;
+		justify-content: center;
+		position: absolute;
+		right: 16px;
+		top: 16px;
+		transition: color 0.3s ease;
+		width: 40px;
+		z-index: 10;
+		right: 24px;
+		top: 24px;
+	}
+
+	.dropped-providers {
+		height: 100%;
+		overflow-y: auto;
+		max-height: 600px;
+		max-width: 800px;
+		padding: 24px 32px !important;
+		-moz-column-gap: 8px;
+		column-gap: 8px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		row-gap: 8px;
+	}
+
+	.image-provider {
+		object-fit: contain;
+		margin-right: 1rem;
+	}
+
+	.search-modal-tabs__tab {
+		background: transparent none;
+		border: none;
+		font-style: normal;
+
+		letter-spacing: 0.2px;
+		line-height: 20px;
+		padding: 6px 16px !important;
+		text-transform: uppercase;
+	}
+
+	.search-modal-tabs__tab--active {
+		font-style: normal;
+
+		letter-spacing: 0.2px;
+		line-height: 20px;
+		padding: 6px 16px !important;
+		text-transform: uppercase;
+		border: solid 1px;
+	}
+
+	.link-provider {
+		padding: 12px 16px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+		gap: 12px;
+		flex-wrap: wrap;
+		transition: background 0.3s ease;
+	}
+}

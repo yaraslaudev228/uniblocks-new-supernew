@@ -1,0 +1,16 @@
+.uni_icons__list {
+  display: flex;
+  width: 100%; 
+  flex-wrap: wrap;
+}
+.uni_icons__list .uni_icon {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.uni_icons__list .uni_remove_block_button {
+  position: static;
+}

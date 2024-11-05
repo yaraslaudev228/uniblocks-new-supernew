@@ -1,0 +1,86 @@
+.wp-block-uni-blocks-banner-top {
+  width: 100%;
+  max-width: 100%;
+  margin-left: unset !important;
+  margin-right: unset !important;
+}
+
+.editor-styles-wrapper .wp-block.wp-block-uni-blocks-banner-on-top {
+  margin-left: unset !important;
+  margin-right: unset !important;
+}
+
+.interface-interface-skeleton__sidebar .uni_upload_mage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background: #0d99d5;
+  font-weight: 900;
+  padding: 1rem !important;
+  color: #fff;
+  width: 100%;
+}
+
+.uni_banner {
+  width: 100%;
+  position: relative;
+}
+.uni_banner .block-editor-inner-blocks {
+  position: relative;
+  z-index: 15;
+  width: 100%;
+}
+
+.uni_banner__inner {
+  padding: 2rem 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.uni_banner__caption {
+  padding: 0 40px;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  z-index: 5;
+  align-items: flex-start;
+}
+
+.uni_banner__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+}
+
+.uni_description {
+  font-size: clamp(32px, 3vw, 42px);
+  font-weight: bolder;
+}
+
+.uni_more_description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.uni_title {
+  font-size: clamp(18px, 1.5vw, 22px);
+}
+
+.uni_banner__inner.uni_banner_center {
+  align-items: center;
+}
+
+.uni_banner__inner.uni_banner_right {
+  align-items: flex-end;
+}

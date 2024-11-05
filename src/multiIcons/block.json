@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/multi-icons",
+  "version": "0.1.0",
+  "title": "Uni Multi Icons",
+  "category": "unitheme",
+  "icon": "editor-table",
+  "description": "Icons for footer (usually used here), just place here any icons that you want",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"icons": {
+	  "type": "array",
+	  "default": []
+	},
+	"iconsWidth":{
+	  "type": "string",
+	  "default": "32px"
+	},
+	"iconsHeight":{
+	  "type": "string",
+	  "default": "32px"
+	},
+	"iconsJustify": {
+	  "type": "string",
+	  "default": "right"
+	},
+	"iconsGap": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"iconsPadding": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"iconsBackground": {
+	  "type": "string",
+	  "default": "transparent"
+	},
+	"iconsBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

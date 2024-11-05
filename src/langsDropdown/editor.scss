@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-categories {
+  margin: 0 0 0 0 !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+.uni_langs_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  .uni_lang {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	flex-basis: 180px;
+	position: relative;
+  }
+}

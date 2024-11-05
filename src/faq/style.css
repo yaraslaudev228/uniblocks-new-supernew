@@ -1,0 +1,21 @@
+.uni_faq {
+  display: flex;
+  flex-direction: column;
+}
+
+.uni_faq__item .uni_faq__question {
+  font-size: 14px;
+  padding: 1rem 1rem;
+  border: 1px solid #222222;
+  font-weight: bolder;
+}
+.uni_faq__item .uni_faq__answer {
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 1rem;
+  background-color: #efefef;
+}
+
+.uni_faq__item-active .uni_faq__answer {
+  padding-bottom: 2rem !important;
+}

@@ -1,0 +1,18 @@
+.wp-block-uni-blocks-footer-row-collection {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  max-width: 100%;
+  margin: 1rem 0;
+}
+.wp-block-uni-blocks-footer-row-collection .wp-block-image {
+  flex-basis: 960px;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+.wp-block-uni-blocks-footer-row-collection .wp-block-columns-is-layout-flex {
+  width: 100%;
+}
+.wp-block-uni-blocks-footer-row-collection .wp-block-column {
+  flex-grow: 1;
+}

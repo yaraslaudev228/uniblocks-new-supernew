@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/footer-bet-collection",
+  "version": "0.1.0",
+  "title": "Footer Bet Collection",
+  "category": "unicollections",
+  "icon":  "schedule",
+  "description": "Logo + Icons > Text > menus (dropped down)",
+  "example": {},
+  "supports": {
+  	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+	"footerPaddingX": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"footerPaddingY": {
+	  "type": "string",
+	  "default": "2rem"
+	},
+	"gapBetween": {
+	  "type": "string",
+	  "default": "1rem"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

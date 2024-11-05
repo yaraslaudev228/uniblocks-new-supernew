@@ -1,0 +1,116 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/block-tournamnts",
+  "version": "0.1.0",
+  "title": "Uni tournaments",
+  "category": "unitheme",
+  "icon": "heading",
+  "description": "Block tournaments",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true
+	},
+	"typography": {
+	  "fontSize": true,
+	  "lineHeight": true
+	}
+  },
+  "attributes": {
+	"tournaments": {
+	  "type": "array",
+	  "default": [
+		{
+		  "image_tour": {
+			"url": null,
+			"id": null
+		  },
+		  "title_tour": "write the element title",
+		  "prize_tour": "write the element prize",
+		  "text_tour": "write the element text",
+		  "get_tour": "Get bonus"
+		}
+	  ]
+	},
+	"timer_items_background": {
+	  "type": "string",
+	  "default": "#ffffff45"
+	},
+	"timer_items_border_radius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"title_fs": {
+	  "type": "string",
+	  "default": "28px"
+	},
+	"title_section_color": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"title_section_fs": {
+	  "type": "string",
+	  "default": "24px"
+	},
+	"text_fs": {
+	  "type": "string",
+	  "default": "18px"
+	},
+	"prize_fs": {
+	  "type": "string",
+	  "default": "20px"
+	},
+	"title_section": {
+	  "type": "string",
+	  "default": "Tournaments"
+	},
+	"alignment": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"heightBlock": {
+	  "type": "string",
+	  "default": "360px"
+	},
+	"color_title_tour": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"color_prize_tour": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"color_text_tour": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"color_button": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"color_button_bg": {
+	  "type": "string",
+	  "default": "white"
+	},
+	"button_fs": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"border_block": {
+	  "type": "string",
+	  "default": "8px"
+	},
+	"count_block": {
+	  "type": "string",
+	  "default": "4"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
+

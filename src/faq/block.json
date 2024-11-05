@@ -1,0 +1,62 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/faq",
+  "version": "0.1.0",
+  "title": "Uni FAQ block",
+  "category": "unitheme",
+  "icon": "list-view",
+  "description": "FAQ blocks for every page",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"faqItems": {
+	  "type": "array",
+	  "default": [
+		{
+		  "faq_question": "Write Your question",
+		  "faq_answer": "Write your absolute answer to the first question by default, it can be painfull but you will find it fun"
+		}
+	  ]
+	},
+	"questionPadding": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"answerPadding": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"borderRadiusForElements": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"gapBetweenBlocks": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"questionBgColor": {
+	  "type": "string",
+	  "default": "#f0f0f0"
+	},
+	"answerBgColor": {
+	  "type": "string",
+	  "default": "#e6e6fa"
+	},
+	"questionColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"answerColor": {
+	  "type": "string",
+	  "default": "#222"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

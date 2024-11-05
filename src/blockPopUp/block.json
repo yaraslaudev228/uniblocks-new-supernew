@@ -1,0 +1,115 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/block-popup",
+  "version": "0.1.0",
+  "title": "Uni Provider open Popup",
+  "category": "unitheme",
+  "icon": "heading",
+  "description": "Block Provider open Popup",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true,
+	  "background": false
+	},
+	"align": true
+  },
+  "attributes": {
+	"buttonDropdownIcon": {
+	  "type": "object",
+	  "default": {
+		"url": null,
+		"id": null
+	  }
+	},
+	"buttonPaddingY":  {
+	  "type": "string",
+	  "default": ".5rem"
+	},
+	"buttonPaddingX":  {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"buttonBackgroundColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"buttonBorderRadius": {
+	  "type": "string",
+	  "default": "5px"
+	},
+	"title_providers": {
+	  "type": "string",
+	  "default": "Providers"
+	},
+	"title_games": {
+	  "type": "string",
+	  "default": "Games"
+	},
+	"providers": {
+	  "type": "array",
+	  "default": [
+		{
+		  "url": null,
+		  "title": null
+		}
+	  ]
+	},
+	"linkBackground": {
+	  "type": "string",
+	  "default": "grey"
+	},
+	"title_fs": {
+	  "type": "string",
+	  "default": "1.4rem"
+	},
+	"color_title": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"text_fs": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"color_text": {
+	  "type": "string",
+	  "default": "black"
+	},
+	"border_block": {
+	  "type": "string",
+	  "default": "8px"
+	},
+	"image_provider_height": {
+	  "type": "string",
+	  "default": "30px"
+	},
+	"blocksBackground": {
+	  "default": "#8080803b",
+	  "type": "string"
+	},
+	"buttonBackground": {
+	  "default": "#8080803b",
+	  "type": "string"
+	},
+	"borderStyles_color": {
+	  "type": "string",
+	  "color": "red"
+	},
+	"borderStyles_width": {
+	  "type": "string",
+	  "color": "1px"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
+

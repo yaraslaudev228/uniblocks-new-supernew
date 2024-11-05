@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-banner-top {
+	position: relative;
+}
+
+.uni_banner_inner {
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.uni_banner {
+	.uni_header__collection {
+		width: 100%;
+
+		z-index: 15;
+	}
+}
+
+@media (max-width: 890px) {
+	.uni_banner_inner {
+		padding: 0 1rem !important;
+	}
+}
+.uni_banner_center .uni_banner__caption {
+	position: relative;
+	max-width: 500px !important;
+}
+
+.uni_footer .menu_items .uni_menu_item img {
+	width: 100%;
+}
+
+.uni_footer .wp-block-uni-blocks-langs-dropdown {
+	display: flex;
+	justify-content: center;
+}
+.uni_main__wrapper .uni_container {
+	padding: 0 !important;
+}

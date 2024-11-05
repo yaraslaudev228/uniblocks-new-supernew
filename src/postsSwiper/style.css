@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-uni-blocks {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+}
+
+.uni_slot__caption {
+  text-align: center;
+  width: 100%;
+}
+
+.uni_slots {
+  margin: 1rem 0;
+}
+.uni_slots .slot__image {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}

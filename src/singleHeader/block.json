@@ -1,0 +1,229 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/header-block",
+  "version": "0.1.0",
+  "title": "Header",
+  "category": "unitheme",
+  "icon": "smiley",
+  "description": "Сборка хедера лого, меню, кнопки, языки",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"isBurger": {
+	  "type": "boolean",
+	  "default": false
+	},
+	"logo": {
+	  "type": "object",
+	  "default": {
+		"url": null,
+		"id": null
+	  }
+	},
+	"logoWidth": {
+	  "type": "string",
+	  "default": "140px"
+	},
+	"logoHeight": {
+	  "type": "string",
+	  "default": "40px"
+	},
+	"menuItems": {
+	  "type": "array",
+	  "default": [
+		{
+		  "name": "Lobby",
+		  "icon": {
+			"id": null,
+			"url": null
+		  },
+		  "iconSize": null,
+		  "url": "/",
+		  "padding": null,
+		  "background": null,
+		  "color": null,
+		  "target": null,
+		  "border": {
+			"width": null,
+			"style": null,
+			"color": null
+		  },
+		  "hideInMobile": false
+
+		},
+		{
+		  "name": "Promotions",
+		  "url": "/promotions",
+		  "icon": {
+			"id": null,
+			"url": null
+		  },
+		  "iconSize": null,
+		  "padding": null,
+		  "background": null,
+		  "target": null,
+		  "color": null,
+		  "border": {
+			"width": null,
+			"style": null,
+			"color": null
+		  },
+		  "hideInMobile": false
+		},
+		{
+		  "name": "Slots",
+		  "url": "/slots",
+		  "icon": {
+			"id": null,
+			"url": null
+		  },
+		  "iconSize": null,
+		  "padding": null,
+		  "background": null,
+		  "target": null,
+		  "color": null,
+		  "border": {
+			"width": null,
+			"style": null,
+			"color": null
+		  },
+		  "hideInMobile": false
+		}
+	  ]
+	},
+	"menuItemsGap": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"menuItemsIconSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"menuItemsColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"menuItemsBackground": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"menuItemsPadding": {
+	  "type": "string",
+	  "default": "0.5rem 1rem"
+	},
+	"menuItemsBorder": {
+	  "type": "object",
+	  "default": {
+		"width": null,
+		"style": null,
+		"color": null
+	  }
+	},
+	"menuItemsWidth": {
+	  "type": "string",
+	  "default": "100px"
+	},
+	"menuItemsFontSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"menuItemsBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"buttons": {
+	  "type": "array",
+	  "default": [
+		{
+		  "name": "Login",
+		  "icon": {
+			"id": null,
+			"url": null
+		  },
+		  "iconSize": null,
+		  "padding": null,
+		  "background": null,
+		  "color": null,
+		  "url": null,
+		  "target": null,
+		  "border": {
+			"width": null,
+			"style": null,
+			"color": null
+		  },
+		  "hideInMobile": false
+		},
+		{
+		  "name": "Sign Up",
+		  "icon": {
+			"id": null,
+			"url": null
+		  },
+		  "iconSize": null,
+		  "padding": null,
+		  "background": null,
+		  "color": null,
+		  "target": null,
+		  "url": null,
+		  "border": {
+			"width": null,
+			"style": null,
+			"color": null
+		  },
+		  "hideInMobile": false
+		}
+	  ]
+	},
+	"buttonsGap": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"buttonsIconsSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"buttonsColor": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"buttonsBackground": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"buttonsPadding": {
+	  "type": "string",
+	  "default": "0.5rem 1rem"
+	},
+	"buttonsBorder": {
+	  "type": "object",
+	  "default": {
+		"width": null,
+		"style": null,
+		"color": null
+	  }
+	},
+	"buttonsWidth": {
+	  "type": "string",
+	  "default": "100px"
+	},
+	"buttonsFontSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"buttonsBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"buttonsAlign": {
+	  "type": "string"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/container-block",
+  "version": "0.1.0",
+  "title": "Container",
+  "category": "unitheme",
+  "icon": "schedule",
+  "description": "Блок контейнер (обертка для блоков с узким расстоянием",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+	"containerSize": {
+	  "type": "string",
+	  "default": "100%"
+	},
+	"backgroundImage": {
+	  "type": "object",
+	  "default": {
+		"url": null,
+		"id": null
+	  }
+	},
+
+	"backgroundGradient": {
+	  "type": "string",
+	  "default": null
+	},
+	"backgroundColor": {
+	  "type": "string",
+	  "default": "transparent"
+	},
+	"containerHeight": {
+	  "type": "string"
+	},
+	"innerMargins": {
+	  "type": "string",
+	  "default": null
+	},
+	"innerBackgroundColor": {
+	  "type": "string",
+	  "default": "transparent"
+	},
+	"innerBorderRadius": {
+	  "type": "string",
+	  "default": "0px"
+	},
+	"outerBorderRadius": {
+	  "type": "string",
+	  "default": "0px"
+	},
+	"containerPaddingY": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"containerPaddingX": {
+	  "type": "string",
+	  "default": "0"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

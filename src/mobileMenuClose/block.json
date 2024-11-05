@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/mobile-closer",
+  "version": "0.1.0",
+  "title": "Uni mobile close button",
+  "category": "unitheme",
+  "icon": "editor-table",
+  "description": "Триггер для закрытия сайдбара менюшки на мобилке",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"isAbsolute": {
+	  "type": "boolean",
+	  "default": true
+	},
+
+	"icon": {
+	  "type": "object",
+	  "default": {}
+	},
+	"iconBackground": {
+	  "type": "string",
+	  "default": "transparent"
+	},
+	"iconWidth": {
+	  "type": "string",
+	  "default": "24px"
+	},
+	"text": {
+	  "type": "string",
+	  "default": null
+	},
+	"textColor": {
+	  "type": "string",
+	  "default": "#ddd"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

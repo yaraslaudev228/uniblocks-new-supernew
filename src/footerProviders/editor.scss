@@ -1,0 +1,67 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wr_editorProv {
+	border: solid 1px;
+	width: 100%;
+	gap: 20px;
+	padding: 20px;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+
+	.uni_section__title {
+		width: 100%;
+	}
+
+	.uni_provider_admin {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		border: solid 1px;
+		padding: 10px;
+		box-sizing: border-box;
+		position: relative;
+		width: 100%;
+		max-width: calc(100% / 4 - 20px);
+		img {
+			width: 100%;
+			object-fit: contain;
+		}
+	}
+	.uni_upload_mage {
+		flex-basis: 100%;
+		background-color: #8080801f;
+		width: 100%;
+		max-width: calc(100% / 4 - 20px);
+		height: 80px;
+	}
+	.uniProviderDelete {
+		border: solid black 1px;
+		color: black;
+		background-color: white;
+		font-size: 14px;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		border-radius: 4px;
+		height: 25px;
+		width: 25px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.title-content {
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: calc(8px);
+	padding: 0px;
+}

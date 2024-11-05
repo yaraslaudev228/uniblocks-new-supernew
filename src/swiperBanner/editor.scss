@@ -1,0 +1,65 @@
+.wp-block-uni-blocks-swiper-banner {
+  max-width: 100%;
+  .uni_upload_mage {
+	padding: .5rem;
+	background: #00a0d2;
+	color: #fff;
+	cursor: pointer;
+	transition: .3s opacity;
+	&:hover {
+	  opacity: .75;
+	}
+  }
+  .banner-add {
+	background: #6ece89;
+	color: #222222;
+	font-weight: bolder;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+}
+.uni_bannerSwiper {
+  width: 100%;
+  .uni_banner_element {
+	margin-bottom: 1rem;
+	position: relative;
+ 	.bannerImage {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	}
+	.caption {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: flex-start;
+
+	}
+ 	.btn {
+	  display: inline-flex;
+	  gap: 1rem;
+	  justify-content: center;
+	  align-items: center;
+	  min-width: 150px;
+	}
+  }
+}
+.uni_banner_thumbs {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  .thumb {
+	height: 140px;
+	position: relative;
+	z-index: 10;
+	img {
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	}
+  }
+  .thumb-selected {
+	border: 2px solid #00a0d2;
+  }
+}

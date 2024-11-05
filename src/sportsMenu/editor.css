@@ -1,0 +1,44 @@
+.uni_sports__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.add-sport-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background: #DDDDDD;
+  color: #0d99d5;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s opacity;
+}
+.add-sport-item:hover {
+  opacity: 0.5;
+}
+
+.uni_sport_menu__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #ddd;
+}
+.uni_sport_menu__item span {
+  font-size: 12px;
+}
+.uni_sport_menu__item .iconName {
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #0d99d5;
+}
+.uni_sport_menu__item .icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.uni_sport_menu__item .uni_remove_block_button {
+  position: static;
+}

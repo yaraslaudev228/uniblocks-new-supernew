@@ -1,0 +1,20 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-header-collection {
+  .wp-block-image {
+	margin: 0 1rem !important
+  }
+}
+
+.uni_block_collection {
+  border: 1px solid #222222;
+  max-width: 100%;
+
+  .block-editor-block-list__layout {
+	display: flex;
+	align-items: center;
+  }
+}

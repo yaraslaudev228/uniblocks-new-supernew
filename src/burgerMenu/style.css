@@ -1,0 +1,124 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.uni_burger__icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.uni_burger__icon img {
+  object-fit: contain;
+}
+
+.uni_btns_right {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.uni_btns_center {
+  text-align: center;
+  align-items: center;
+}
+
+.uni_btns_left {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.uni_btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.uni_burger__aside {
+  position: fixed;
+  top: 0;
+  transition: 0.3s left, 0.3s right;
+  width: 100%;
+  max-width: 240px;
+  height: 100vh;
+  padding: 2rem 1rem;
+  z-index: 140;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: scroll;
+  left: -100%;
+}
+.uni_burger__aside::-webkit-scrollbar {
+  display: none;
+}
+.uni_burger__aside .uni_btn__close-burger {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+}
+
+.uni_burger__menu_item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.uni_burger__menu_items {
+  display: flex;
+  flex-direction: column;
+}
+
+.uni_buger__aside-align-left {
+  left: -100%;
+}
+
+.uni_buger__aside-align-right {
+  right: -100%;
+}
+
+.uni_burger__aside-active.uni_buger__aside-align-right {
+  right: 0;
+}
+
+.uni_burger__aside-active.uni_buger__aside-align-left {
+  left: 0;
+}
+
+.uni_burger__aside-active {
+  left: 0;
+}
+
+.uni_sidebar__images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uni_sidebar__images a {
+  display: block;
+  width: 100%;
+}
+.uni_sidebar__images a img {
+  width: 100%;
+  height: auto;
+}
+
+.uni_sep {
+  display: block;
+}
+
+.uni_aside_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  flex-grow: 1;
+}

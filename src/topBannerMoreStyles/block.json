@@ -1,0 +1,151 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/banner-top-add-styles",
+  "version": "0.1.0",
+  "title": "Баннер (на всю ширину) c доп настройками",
+  "category": "unitheme",
+  "icon": "format-image",
+  "description": "Full width Banner on your site with add styles",
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true,
+	  "background": false,
+	  "default": {
+		"text": "#fff"
+	  }
+	}
+  },
+  "attributes": {
+	"bannerInnerPaddingY": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"bannerInnerPaddingX": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"bannerHeight": {
+	  "type": "string",
+	  "default": "450px"
+	},
+	"bannerMargin": {
+	  "type": "string",
+	  "default": "0 0 0 0"
+	},
+	"block_image": {
+	  "type": "object",
+	  "default": {
+		"url": "https://casino-n1.com/wp-content/uploads/2023/08/n1bet-home-page-banner-1656x500-v2.jpeg",
+		"id": null
+	  }
+	},
+	"block_title": {
+	  "type": "string",
+	  "default": "Embrace your banner"
+	},
+	"block_description": {
+	  "type": "string",
+	  "default": "Super Big Text i think is here"
+	},
+	"block_description_Color": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"block_more_description": {
+	  "type": "string",
+	  "default": "Hello nigaz"
+	},
+	"block_more_description_Color": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"block_under_description": {
+	  "type": "string",
+	  "default": ""
+	},
+	"block_under_description_Color": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"block_button": {
+	  "type": "string",
+	  "default": "Get bonus"
+	},
+	"buttonBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"bannerBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"align": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"captionBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"captionPadding": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"captionAlign": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"captionBradius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"captionFirstFontSize": {
+	  "type": "string",
+	  "default": "18px"
+	},
+	"captionSecondFontSize": {
+	  "type": "string",
+	  "default": "22px"
+	},
+	"captionThirdFontSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"captionFourthFontSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"buttonBackground": {
+	  "type": "string",
+	  "default": "green"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"buttonFontSize": {
+	  "type": "string",
+	  "default": "16px"
+	},
+	"buttonPaddingX": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"buttonPaddingY": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"overlayColor": {
+	  "type": "string",
+	  "default": "#22222250"
+	}
+
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

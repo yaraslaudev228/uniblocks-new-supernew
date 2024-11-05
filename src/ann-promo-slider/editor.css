@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-uni-blocks-faq {
+  position: relative;
+}
+
+.uni_faq {
+  display: flex;
+  flex-direction: column;
+}
+
+.uni_faq__item {
+  position: relative;
+}
+.uni_faq__item .uni_faq__question {
+  font-size: 14px;
+  padding: 10px;
+  font-weight: bolder;
+}
+.uni_faq__item .uni_faq__answer {
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.uni_faq__item_add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.uni_faq__item_add .uni_block_create {
+  font-size: 14px;
+  padding: 10px;
+}

@@ -1,0 +1,43 @@
+.uni_promotions_list_column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem !important;
+}
+.uni_promotion_column {
+  img {
+	width: 100%;
+
+	object-fit: cover;
+  }
+  .uni_promotion__caption {
+	padding: 1rem;
+  }
+
+}
+.uni_promotion__caption-left {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.uni_promotion__caption-center {
+  align-items: center;
+  justify-content: center;
+}
+.uni_promotion__caption-right {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .uni_promotion_column {
+	flex-direction: column !important;
+	align-items: center;
+	text-align: center;
+	img {
+	  width: 100% !important;
+	}
+	.uni_promotion__caption_splitter {
+	  display: none !important;
+	}
+  }
+}
+

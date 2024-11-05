@@ -1,0 +1,23 @@
+.uni_sports_menu {
+  display: flex;
+  flex-direction: column;
+  .uni_sport_menu__item {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: space-between;
+
+	.icon {
+	  display: flex;
+	  align-items: center;
+	  gap: .5rem
+	}
+	.media-item {
+	  width: 24px;
+	  height: 24px;
+	}
+	.counter {
+	  font-weight: bolder;
+	}
+  }
+}

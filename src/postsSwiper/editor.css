@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-uni-posts-swiper {
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+.uni_slots {
+  gap: 1rem;
+}
+
+.uni_slot__caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

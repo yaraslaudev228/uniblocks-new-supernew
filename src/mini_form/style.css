@@ -1,0 +1,39 @@
+.uni_wrapper {
+  display: flex;
+}
+
+.uni__mini-form {
+  display: flex;
+  flex-direction: column;
+}
+.uni__mini-form .title {
+  display: block;
+  color: #fff;
+  line-height: 1.5;
+}
+.uni__mini-form .bonus {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.uni__mini-form .input-wrap {
+  display: flex;
+}
+.uni__mini-form .input-wrap .input {
+  flex-basis: 80%;
+  flex-grow: 1;
+  font-weight: 900;
+}
+.uni__mini-form .input-wrap .button {
+  padding: 0.5rem;
+  flex-basis: 15%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.uni__mini-form .btn-spiele {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

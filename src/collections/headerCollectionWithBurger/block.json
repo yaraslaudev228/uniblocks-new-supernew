@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/header-wburger-collection",
+  "version": "0.1.0",
+  "title": "Header Collection With burger",
+  "category": "unicollections",
+  "icon":  "schedule",
+  "description": "Header collection looks like Row of elements with logotype next menu items and 2 buttons by default ",
+  "example": {},
+  "supports": {
+  	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+	"content": {
+	  "type": "string",
+	  "default": "Write your title please"
+	},
+  	"showInFront": {
+	  "type": "boolean",
+	  "default": true
+	},
+	"isAbsolute": {
+	  "type": "boolean",
+	  "default": false
+	},
+	"headerHeight": {
+	  "type": "string",
+	  "default": "80px"
+	},
+	"headerPadding": {
+	  "type": "string",
+	  "default": "0"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

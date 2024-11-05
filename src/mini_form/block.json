@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/mini-form",
+  "version": "0.1.0",
+  "title": "Uni Mini Form",
+  "category": "unitheme",
+  "icon": "editor-table",
+  "description": "Минимальная форма для баннера (в частности Вазамбы)",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"bonusImage": {
+	  "type": "object"
+	},
+	"buttonText": {
+	  "type": "string",
+	  "default": "Spiele mit 70€"
+	},
+	"currency": {
+	  "type": "string",
+	  "default": "EUR"
+	},
+	"titles": {
+	  "type": "array",
+	  "default": [
+		{
+		  "text": "Casino Willkommensbonus",
+		  "fontSize": null
+		},
+		{
+		  "text": "100% bis zu 500€",
+		  "fontSize": null
+		},
+		{
+		  "text": "+ 200 FS + 1 Bonus Crab",
+		  "fontSize": null
+		}
+
+	  ]
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

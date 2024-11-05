@@ -1,0 +1,18 @@
+.uni_comment_body {
+  line-height: 1.5;
+}
+.uni_comment_date {
+  opacity: .75;
+  font-size: 12px;
+  margin: .5rem 0;
+}
+.uni_comments {
+  display: flex;
+  flex-direction: column;
+
+}
+.uni_comment_rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

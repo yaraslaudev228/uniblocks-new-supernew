@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/ann-promo-slider",
+  "version": "0.1.0",
+  "title": "Ann Promo Slider",
+  "category": "unitheme",
+  "icon": "list-view",
+  "description": "slider promotion",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "img": null,
+          "title": null,
+          "description": null,
+          "btnText": null,
+          "label": null
+        }
+      ]
+    },
+    "blocksHeight": {
+      "type": "string",
+      "default": "250px"
+    },
+    "blocksBorderRadius": {
+      "type": "string",
+      "default": "0px"
+    },
+    "blocksPaddings": {
+      "type": "string",
+      "default": "0px"
+    },
+    "blocksMargins": {
+      "type": "string",
+      "default": "0px"
+    },
+    "blocksGap": {
+      "type": "string",
+      "default": "10px"
+    }
+
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

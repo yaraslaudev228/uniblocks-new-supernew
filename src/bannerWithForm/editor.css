@@ -1,0 +1,21 @@
+.block-editor-block-list__block.wp-block-uni-blocks-banner-with-form {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.uni_banner_with_form {
+  display: flex;
+  align-items: center;
+}
+
+.uni_banner_with_form.align-left {
+  justify-content: flex-start;
+}
+
+.uni_banner_with_form.align-center {
+  justify-content: center;
+}
+
+.uni_banner_with_form.align-right {
+  justify-content: flex-end;
+}

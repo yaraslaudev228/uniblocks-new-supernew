@@ -1,0 +1,48 @@
+.uni_wrapper {
+  display: flex;
+
+
+}
+
+.uni__mini-form {
+  display: flex;
+  flex-direction: column;
+
+ 	.title {
+	  display: block;
+	  color: #fff;
+	  line-height: 1.5;
+	}
+
+  .bonus {
+	display: flex;
+	align-items: center;
+	gap: 1rem
+  }
+
+  .input-wrap {
+	display: flex;
+
+	.input {
+	  flex-basis: 80%;
+	  flex-grow: 1;
+	  font-weight: 900;
+	}
+
+	.button {
+	  padding: .5rem;
+	  flex-basis: 15%;
+	  flex-grow: 1;
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+  }
+
+  .btn-spiele {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+  }
+}

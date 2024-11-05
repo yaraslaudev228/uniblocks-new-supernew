@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/uni-posts-swiper",
+  "version": "0.1.0",
+  "title": "Uni Slots Swiper",
+  "category": "unitheme",
+  "icon": "images-alt",
+  "description": "Show slots here",
+  "example": {},
+  "supports": {
+	"html": false
+  },
+  "attributes": {
+	"slots": {
+	  "type": "array",
+	  "default": []
+	},
+	"slotsPerRow": {
+	  "type": "string",
+	  "default": "6"
+	},
+	"slotsImageHeight": {
+	  "type": "string",
+	  "default": "180px"
+	},
+	"slotsGap": {
+	  "type": "string",
+	  "default": "16"
+	},
+	"slotsInnerTextColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"playBtnBackground": {
+	  "type": "string",
+	  "default": "red"
+	},
+	"isTitleUnderImage": {
+	  "type": "boolean",
+	  "default": true
+	},
+	"demoText": {
+	  "type": "string",
+	  "default": "Demo"
+	},
+	"slotsBorderRadius": {
+	  "type": "string",
+	  "default": "10px"
+	},
+	"slotsPerPage": {
+	  "type": "string",
+	  "default": "-1"
+	},
+	"slotsTitleColor": {
+	  "type": "string",
+	  "default": "#222"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

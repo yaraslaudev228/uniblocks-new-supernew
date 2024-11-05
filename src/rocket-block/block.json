@@ -1,0 +1,129 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/rocket-block",
+  "version": "0.1.0",
+  "title": "Uni Rocket Block",
+  "category": "unitheme",
+  "icon": "editor-table",
+  "description": "Блок под рокет с баннером",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"borderRadius": {
+	  "type": "string"
+	},
+	"background": {
+	  "type": "object"
+	},
+	"padding": {
+	  "type": "string"
+	},
+	"bigTitle": {
+	  "type": "object",
+	  "default": {
+		"title": "PLAY MORE AND GET MORE",
+		"color": "#222",
+		"lineHeight": "1",
+		"size": "72px"
+	  }
+	},
+	"description": {
+	  "type": "object",
+	  "default": {
+		"title": "Prepare to become number one with virtual casino RocketSpin! Casino sites are dime a dozen, but we stand out among online casinos for sure",
+		"color": "#222",
+		"lineHeight": "1.5",
+		"size": "16px"
+	  }
+	},
+	"button": {
+	  "type": "object",
+	  "default": {
+		"title": "LET'S PLAY",
+		"background": "#043EBA",
+		"borderRadius": "12px",
+		"size": "16px",
+		"lineHeight": "1.5",
+		"padding": "16px 24px",
+		"color": "#fff"
+	  }
+	},
+	"blocks": {
+	  "type": "object",
+	  "default": {
+		"background": "hsla(0, 0%, 100%, .04)",
+		"blur": "20px",
+		"padding": "24px",
+		"borderRadius": "12px"
+	  }
+	},
+	"blockVipTitle": {
+	  "type": "object",
+	  "default": {
+		"title": "VIP PROGRAMM",
+		"color": "#222",
+		"lineHeight": "1",
+		"size": "20px"
+	  }
+	},
+	"blockVipDescription": {
+	  "type": "object",
+	  "default": {
+		"title": "€1000 + 500 FS total prizes <br> 10 levels <br> Searson of 3 months",
+		"color": "#222",
+		"lineHeight": "2",
+		"size": "14px"
+	  }
+	},
+	"blockVipImage": {
+	  "type": "object"
+	},
+	"blockVipImagePosition": {
+	  "type": "object",
+	  "default": {
+		"right": null,
+		"top": null,
+		"left": null,
+		"bottom": null
+	  }
+	},
+	"blockTournamentsTitle": {
+	  "type": "object",
+	  "default": {
+		"title": "VIP PROGRAMM",
+		"color": "#222",
+		"lineHeight": "1",
+		"size": "20px"
+	  }
+	},
+	"blockTournamentsDescription": {
+	  "type": "object",
+	  "default": {
+		"title": "€1000 + 500 FS total prizes <br> 10 levels <br> Searson of 3 months",
+		"color": "#222",
+		"lineHeight": "2",
+		"size": "14px"
+	  }
+	},
+	"blockTournamentsImage": {
+	  "type": "object"
+	},
+	"blockTournamentsImagePosition": {
+	  "type": "object",
+	  "default": {
+		"right": null,
+		"top": null,
+		"left": null,
+		"bottom": null
+	  }
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

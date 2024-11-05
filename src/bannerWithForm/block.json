@@ -1,0 +1,130 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/banner-with-form",
+  "version": "0.1.0",
+  "title": "Uni banner with form registration",
+  "category": "unitheme",
+  "icon": "heading",
+  "description": "Banner with form registration",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true,
+	  "gradients": true
+	},
+	"align": true
+  },
+  "attributes": {
+	"bannerPaddings": {
+	  "type": "string",
+	  "default": "2rem"
+	},
+	"bannerFormWidth": {
+	  "type": "string",
+	  "default": "560px"
+	},
+	"bannerFormBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"titleFontSize": {
+	  "type": "string",
+	  "default": "32px"
+	},
+	"subTitleFontSize": {
+	  "type": "string",
+	  "default": "18px"
+	},
+	"bannerMargins": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"registr_image": {
+	  "type": "object",
+	  "default": {
+		"url": "",
+		"id": 0
+	  }
+	},
+	"registr_title": {
+	  "type": "string",
+	  "default": "Register and get bonus"
+	},
+	"registr_welcome": {
+	  "type": "string",
+	  "default": "Welcome bonus 3000$"
+	},
+	"privacy_policy": {
+	  "type": "string",
+	  "default": "I am 18 years old and I accept the Terms and Conditions and Privacy Policy"
+	},
+	"get_bonus": {
+	  "type": "string",
+	  "default": "Get bonus"
+	},
+	"blocksBackground": {
+	  "type": "string",
+	  "default": "grey"
+	},
+	"alignment": {
+	  "type": "string",
+	  "default": "center"
+	},
+	"buttonBackground": {
+	  "type": "string",
+	  "default": "dark-grey"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"inputEmail": {
+	  "type": "string",
+	  "default": "Email"
+	},
+	"inputFontSize": {
+	  "type": "string",
+	  "default": "14px"
+	},
+	"inputPassword": {
+	  "type": "string",
+	  "default": "Password"
+	},
+	"inputPadding": {
+	  "type": "string",
+	  "default": "0.5rem"
+	},
+	"inputBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"inputBorder": {
+	  "type": "object",
+	  "default": {
+		"color": "#ddd",
+		"style": "undefined",
+		"width": "1px"
+	  }
+	},
+	"inputPlaceholderColor": {
+	  "type": "string",
+	  "default": "#494949"
+	},
+	"inputBackground": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"buttonBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
+

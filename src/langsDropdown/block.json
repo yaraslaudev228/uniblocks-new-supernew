@@ -1,0 +1,85 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/langs-dropdown",
+  "version": "0.1.0",
+  "title": "Uni dropdowns",
+  "category": "unitheme",
+  "icon": "schedule",
+  "description": "Languages dropdown button",
+  "example": {},
+  "supports": {
+	"html": true,
+	"color": {
+	  "color": true
+	}
+  },
+  "attributes": {
+	"langs": {
+	  "type": "array",
+	  "default": [
+		{
+		  "name": "En",
+		  "flag": "/wp-content/uploads/2024/02/1.png"
+		},
+		{
+		  "name": "De",
+		  "flag": "/wp-content/uploads/2024/02/1.png"
+		},
+		{
+		  "name": "Ru",
+		  "flag": "/wp-content/uploads/2024/02/1.png"
+		}
+	  ]
+	},
+	"flagsBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"flagsSize": {
+	  "type": "string",
+	  "default": "24px"
+	},
+	"langsBackground": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"langsDropdownBackground": {
+	  "type": "string",
+	  "default": "#ddd"
+	},
+	"langsDropdownWidth": {
+	  "type": "string",
+	  "default": "100px"
+	},
+	"langsDropdownAlign": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"langsDropdownBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"langsDropdownPaddingY": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"langsDropdownPaddingX": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"langsDropdownDirection": {
+	  "type": "string",
+	  "default": "top"
+	},
+	"langsButtonAlign": {
+	  "type": "string",
+	  "default": "right"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "uni-blocks/promo-column",
+  "version": "0.1.0",
+  "title": "Uni Promotion Column style",
+  "category": "unitheme",
+  "icon": "cover-image",
+  "description": "Promotions blocks",
+  "example": {},
+  "supports": {
+	"html": true
+  },
+  "attributes": {
+	"blocksContainerWidth": {
+	  "type": "string",
+	  "default": "100%"
+	},
+	"titleFontSize": {
+	  "type": "string",
+	  "default": "18px"
+	},
+	"bodyFontSize": {
+	  "type": "string",
+	  "default": "14px"
+	},
+	"promoBlocks": {
+	  "type": "array",
+	  "default": [
+		{
+		  "block_image": {
+			"url": null,
+			"id": null
+		  },
+		  "block_image_height": null,
+		  "block_title": "Bonus title",
+		  "block_description": "Describe your block here",
+		  "block_button": "Get bonus",
+		  "block_url": "/goto",
+		  "block_size": 3,
+		  "target": null,
+		  "block_image_width": null,
+		  "block_align": null,
+		  "is_block_grow": true,
+		  "block_flex_direction": false
+		}
+	  ]
+	},
+
+	"promotionsShadowHeight": {
+	  "type": "string",
+	  "default": "20px"
+	},
+	"promotionsImagesHeight": {
+	  "type": "string",
+	  "default": "250px"
+	},
+	"buttonBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"align": {
+	  "type": "string",
+	  "default": "left"
+	},
+	"captionBackground": {
+	  "type": "string",
+	  "default": "#222"
+	},
+	"captionColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"captionTitleColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"buttonBackground": {
+	  "type": "string",
+	  "default": "green"
+	},
+	"buttonColor": {
+	  "type": "string",
+	  "default": "#fff"
+	},
+	"promotionsGap": {
+	  "type": "string",
+	  "default": "1rem"
+	},
+	"promotionsBorderRadius": {
+	  "type": "string",
+	  "default": "0"
+	},
+	"promotionsImageWidth": {
+	  "type": "string",
+	  "default": "100%"
+	},
+	"columnDirection": {
+	  "type": "string",
+	  "default": "column"
+	}
+  },
+  "textdomain": "uni-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
